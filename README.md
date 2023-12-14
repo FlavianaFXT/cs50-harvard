@@ -2,6 +2,8 @@
 Curso CS50 - harvard de programação - anotações de aula e muito mais!
 
 
+##MODULO 0: SCRACHT
+
 Como mexer no Scratch?
 Podemos escrever programas com os blocos de construção que acabamos de descobrir:
 
