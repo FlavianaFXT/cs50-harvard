@@ -3,13 +3,13 @@ Curso CS50 - Harvard de programação - Repositório dedicado a anotações de a
 
 # ÍNDICE
 
-- [MODULO 0: SCRACHT](#MODULO-0:-SCRACHT)
+- [MODULO-0:SCRACHT](#MODULO-0:SCRACHT)
 - [Como mexer no Scratch?](#Como-mexer-no-Scratch?)
-- [MODULO 1: C](#MoDULO-1:-C)
+- [MODULO-1:C](#MODULO-1:C)
 
 
   
-# MODULO 0: SCRACHT
+# MODULO-0:SCRACHT
 
 ### Aula 0: 
 
@@ -166,7 +166,7 @@ Vamos dar uma olhada em mais algumas demos, incluindo Gingerbread tales remix e 
 Um ex-aluno, Andrew, criou o Raining Men. Embora Andrew tenha acabado não seguindo a ciência da computação como profissão, as habilidades de resolução de problemas, algoritmos e ideias que aprenderemos no curso são aplicáveis ​​em todos os lugares.
 
 
-# MODULO 1: C
+# MODULO-1:C
 
 ### Aula 1
 
