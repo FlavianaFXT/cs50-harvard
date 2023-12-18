@@ -1,31 +1,63 @@
-# cs50-harvard
-Curso CS50 - harvard de programação - anotações de aula e muito mais!
+# CS50-Harvard
+Curso CS50 - Harvard de programação - Repositório dedicado a anotações de aula, do curso e alguns códigos.
+
+# ÍNDICE
+
+- [MODULO 0: SCRACHT](#MODULO-0:-SCRACHT)
+- [Como mexer no Scratch?](#Como-mexer-no-Scratch?)
+- [MODULO 1: C](#MoDULO-1:-C)
 
 
-##MODULO 0: SCRACHT
+  
+# MODULO 0: SCRACHT
 
-Como mexer no Scratch?
+### Aula 0: 
+
+ASCII - Código Padrão Americano para intercâmbio de Informações; um esquema de codificação que atribui valores numéricos a caracteres visando padronizar a troca de dados entre computadores.  Computadores usam o **sistema binário** (bits) (0 1). Este possui 256 possibilidades , o que não é o ideal para representar a linguagem humana, já que não existem apenas 256 caracteres, sem contar os caracteres acentuados. 
+
+Input ➡️ 🔲 ➡️ Output
+
+Ciência da Computação: resolver problemas
+
+Hoje: *Unicode* 
+
+Algoritmos: Conjunto de instruções e regras que um programa de computador possui para executar suas funções.
+
+Pseudocódigo: STEP BY STEP/ passo a passo --> forma de representar código, sejam algoritmos, funções ou outros processos, usando uma combinação de linguagem natural e elementos que se parecem com linguagem de programação. É chamado "pseudo" porque não é realmente executável.
+
+**Scratch: Linguagem C**  
+
+<https://scratch.mit.edu>
+
+Linguagem de programação visual que permite criar jogos, animações e diversas histórias interativas.
+
+
+# Como mexer no Scratch?
+
 Podemos escrever programas com os blocos de construção que acabamos de descobrir:
 
 funções
 condições
 Expressões booleanas
 rotações
+
 E descobriremos recursos adicionais, incluindo:
 
 variáveis
 tópicos
 eventos …
+
 Antes de aprendermos a usar uma linguagem de programação baseada em texto chamada C, usaremos uma linguagem de programação gráfica chamada Scratch , onde arrastaremos e soltaremos blocos que contêm instruções.
 
 Um programa simples em C que imprime “olá, mundo”, ficaria assim:
 
+bash``` 
 #include <stdio.h>
+    int main(void)
+    {
+        printf("oi, mundo\n");
+    }``` 
 
-int main(void)
-{
-    printf("oi, mundo\n");
-}
 Há muitos símbolos e sintaxe, ou seja, o arranjo desses símbolos, que teríamos que descobrir.
 O ambiente de programação do Scratch é um pouco mais amigável:
 
@@ -132,3 +164,38 @@ Podemos até definir um bloco com uma entrada em meow4 , onde temos um bloco que
 Vamos dar uma olhada em mais algumas demos, incluindo Gingerbread tales remix e Oscartime, que combinam loops, condições e movimento para criar um jogo interativo. Oscartime foi na verdade feito por David muitos anos atrás, e ele começou adicionando um sprite, então um recurso de cada vez, e assim por diante, até que eles acabassem formando um programa mais complicado.
 
 Um ex-aluno, Andrew, criou o Raining Men. Embora Andrew tenha acabado não seguindo a ciência da computação como profissão, as habilidades de resolução de problemas, algoritmos e ideias que aprenderemos no curso são aplicáveis ​​em todos os lugares.
+
+
+# MODULO 1: C
+
+### Aula 1
+
+new file ➡️ ``hello.c``
+
+bash```
+#include <studio.h>
+int main (void){
+    printf("hello, world!");
+    }
+    ```
+
+ code ➡️ COMPILER ➡️ Machine code
+
+ Compiler/Compilador: programa que você pode baixar gratuitamente ou pago, que é projetado para converter o código fonte em código de máquina.
+
+no terminal: ``make hello`` ➡️ espera compilar
+
+ ``./hello`` ➡️ esse comando no terminal diz: "vá até esse arquivo e execute"
+
+ FUNCTION ➡️ Action or verb ➡️ são apenas uma versão programada de um algoritmo, a implementação de um algoritmo em código, em software.
+
+ inputs ➡️ arguments
+
+ arguments ➡️ FUNCTIONS ➡️ return value
+
+ STRING: is text
+ 
+ **OBS:** Após cada alteração realizada no arquivo .c, após salvar as alterações, deve-se recompilar o código  ``make hello`` no terminal e rodar de novo o arquivo para verificar as alterações ``./hello``   
+
+
+
