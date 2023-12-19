@@ -3,13 +3,13 @@ Curso CS50 - Harvard de programação - Repositório dedicado a anotações de a
 
 # ÍNDICE
 
-- [MODULO 0: SCRACHT](#MODULO-0:-SCRACHT)
+- [MODULO 0-SCRACHT](#MODULO-0-SCRACHT)
 - [Como mexer no Scratch?](#Como-mexer-no-Scratch?)
-- [MODULO 1: C](#MODULO-1:-C)
+- [MODULO 1-C](#MODULO-1-C)
 
 
   
-# MODULO 0: SCRACHT
+# MODULO 0-SCRACHT
 
 ### Aula 0: 
 
@@ -166,7 +166,7 @@ Vamos dar uma olhada em mais algumas demos, incluindo Gingerbread tales remix e 
 Um ex-aluno, Andrew, criou o Raining Men. Embora Andrew tenha acabado não seguindo a ciência da computação como profissão, as habilidades de resolução de problemas, algoritmos e ideias que aprenderemos no curso são aplicáveis ​​em todos os lugares.
 
 
-# MODULO 1: C
+# MODULO 1-C
 
 ### Aula 1
 
@@ -194,8 +194,30 @@ no terminal: ``make hello`` ➡️ espera compilar
  arguments ➡️ FUNCTIONS ➡️ return value
 
  STRING: is text
- 
+
  **OBS:** Após cada alteração realizada no arquivo .c, após salvar as alterações, deve-se recompilar o código  ``make hello`` no terminal e rodar de novo o arquivo para verificar as alterações ``./hello``   
+
+ io.h - dá capicidade à linguagem C de input e output
+
+ As expressões de cabeçalho dão acesso a mais funções.
+
+ COMANDOS ESPECIFICOS DO CS50:
+| Comando | Descrição |
+| --- | --- |
+| `help50` | usa-se em caso de erro que você não esteja identificando com facilidade|
+| `style50` | te ajuda a descobrir como você pode melhorar o estilo do seu código. por ex: indentação |
+| `check50` | verifica a exatidão do seu código. se ela executa.|
+ 
+OUTROS COMANDOS NO TERMINAL:
+
+| Comando | Descrição |
+| --- | --- |
+|`rm`|remove um arquivo|
+|`mv`|renomeia um arquivo|
+|`mkdir`|cria um diretório|
+|`rmdir`|remove o diretório, deleta|
+|`cp`|copiar|
+ 
 
 
 
