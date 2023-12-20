@@ -217,6 +217,67 @@ OUTROS COMANDOS NO TERMINAL:
 |`mkdir`|cria um diretório|
 |`rmdir`|remove o diretório, deleta|
 |`cp`|copiar|
+
+TYPES da valor que quero armazenar numa variável:
+| | | | |
+| --- | --- |--- | --- |
+|`bool`|`char`|`double`|`float`|
+|`int`|`long`|`string`|  |
+
+Functions no CS50 Library:
+
+| | | | 
+| --- | --- |--- | 
+|`get_char`|`get_double`|`get_float`|
+| `get_int` |`get_long`|`get_string`| 
+
+
+|  | Descrição | 
+| --- | --- |
+|`%c`| local a ser ocupado para impressão de um único caractere(char) |
+|`%f`| para um valor de ponto flutuante (float) ex: número real com um ponto decimal |
+|`%i`| para imprimir um número inteiro (int) |
+|`%s`| para imprimir uma string |
+|`%li`| para imprimir um número inteiro longo (long) |
+
+OPERADORES 
+
+| OPERADORES | Descrição | 
+| --- | --- |
+|`+`| adição |
+|`-`| subtração |
+|`*`| multiplicação |
+|`/`| divisão |
+|`%`| operador resto |
+
+VARIAVEIS, syntatic sugar
+
+`int counter = 0;`
+
+ou 
+
+`counter = counter + 1;`
+
+ou
+
+`counter += 1;`
+
+ou
+
+`counter++;`
+
+CONDITIONS
+
+![image](https://github.com/FlavianaFXT/cs50-harvard/assets/113718720/94f1e5a4-73a0-4b71-a07a-dc1a5fa9e766)
+
+
+Na linguagem C temos que ser sempre muito específicos. Por exemplo: na expressão acima, se eu responder com y ou n maiúsculos, o programa não funciona. Sendo assim, preciso fazer a condição da seguinte forma:
+
+![image](https://github.com/FlavianaFXT/cs50-harvard/assets/113718720/6635919c-3bc5-47bc-b6c2-c66f9121f772)
+
+
+
+
  
 
 
