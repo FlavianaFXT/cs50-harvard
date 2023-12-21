@@ -276,6 +276,19 @@ Na linguagem C temos que ser sempre muito específicos. Por exemplo: na express�
 ![image](https://github.com/FlavianaFXT/cs50-harvard/assets/113718720/6635919c-3bc5-47bc-b6c2-c66f9121f772)
 
 
+LOOPS
+
+ABSTRACTION 
+
+Onde você pode simplificar de outra forma detalhes mais complicados.
+
+OBS: Por convenção, colocaremos funções personalizadas na parte inferior do arquivo. Porém, quando fazemos isso, uma função personalizada que esteja sendo utilizada na ```main function``` não será lida e gerará erro. A solução para isso é inserir no topo um ``PROTOTYPE`` como visualizado abaixo:
+
+LOOP DO 
+Faz cegamente uma coisa primeiro antes de verificar uma condição
+
+LOOP ANINHADO
+
 
 
  
