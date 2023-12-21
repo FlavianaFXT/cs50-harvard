@@ -278,17 +278,27 @@ Na linguagem C temos que ser sempre muito específicos. Por exemplo: na express�
 
 LOOPS
 
+![image](https://github.com/FlavianaFXT/cs50-harvard/assets/113718720/bf0bd8f1-bcc7-41ac-9cad-c717be512b2b)
+
+
 ABSTRACTION 
 
 Onde você pode simplificar de outra forma detalhes mais complicados.
+
+![image](https://github.com/FlavianaFXT/cs50-harvard/assets/113718720/20d9a0e1-650c-48ba-94e1-bf17eb05fa1b)
+
 
 OBS: Por convenção, colocaremos funções personalizadas na parte inferior do arquivo. Porém, quando fazemos isso, uma função personalizada que esteja sendo utilizada na ```main function``` não será lida e gerará erro. A solução para isso é inserir no topo um ``PROTOTYPE`` como visualizado abaixo:
 
 LOOP DO 
 Faz cegamente uma coisa primeiro antes de verificar uma condição
 
+![image](https://github.com/FlavianaFXT/cs50-harvard/assets/113718720/4b1c20dd-6070-463a-921d-727b7abfbf1f)
+
+
 LOOP ANINHADO
 
+![image](https://github.com/FlavianaFXT/cs50-harvard/assets/113718720/07bbcc41-f642-4a26-811b-833f86d77cac)
 
 
  
